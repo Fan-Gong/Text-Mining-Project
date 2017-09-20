@@ -3,9 +3,9 @@ title: "How Did Donald Trump Win the Presidency?"
 author: "Fan Gong"
 date: "2017/9/16"
 output:
-  pdf_document: default
-  html_notebook: default
   html_document: default
+  html_notebook: default
+  pdf_document: default
 ---
 
 ##Overview
@@ -15,16 +15,6 @@ output:
 We all know that **Donald Trump** is the current president of the United States, in office since January 20, 2017. We also know that he has gone through a very tough campaign against with Hillary Clinton.
 
 So, one question keep coming to my mind: How did Donald Trump win this presidency?
-
-I was lucky enough to see the whole campaign between Donald Trump and Hillary Clinton. And here is the picture I took from the election night at Javits Convention Center.
-
-```{r, fig.width=7, fig.height=5, echo=FALSE, fig.align='center'}
-library(png)
-library(grid)
-img = readPNG('../figs/pic1.png')
-grid.raster(img)
-```
-
 
 Not to talk about the specific political dissidence between Trump and Hillary, let me start to find the answers through analyzing their speeches. 
 
@@ -501,7 +491,7 @@ sentiment.summary %>% select(c(Name, negative, positive, sentiment_score)) %>% m
 
 
 ####The sentence related to that sentiment
-```{r, fig.width=7, fig.height=5, fig.align='center', echo=FALSE}
+```{r, fig.width=7, fig.height=5, fig.align='center', echo=FALSE, eval=FALSE}
 #the emotionally charged sentences
 speech.df = tbl_df(sentence.list)%>%
   filter(Name =="Donald Trump", word.count>=4)%>%
@@ -541,6 +531,21 @@ $$ $$
 #Speak Like a Emotional Nine Years Old Boy!
 
 $$ $$
+$$ $$
+
+#Just Kidding. 
+
+$$ $$
+$$ $$
+
+## My conclusion is:
+
+$$ $$
+$$ $$
+
+### Through using the simplest words, Donald Trump makes every civilian feel more close to him. He tried his best to fight with Hillary Clinton, and his speech contains lots of anger and fear, not all about anticipation and joy. Maybe this whole bunch of speaking behaviors makes people feel him more like a common normal person rather than a glib politician.
+
+
 $$ $$
 
 ```{r, fig.width=7, fig.height=5, echo=FALSE, fig.align='center'}
