@@ -3,9 +3,9 @@ title: "How Did Donald Trump Win the Presidency?"
 author: "Fan Gong"
 date: "2017/9/16"
 output:
-  html_document: default
-  html_notebook: default
   pdf_document: default
+  html_notebook: default
+  html_document: default
 ---
 
 ##Overview
