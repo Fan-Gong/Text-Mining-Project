@@ -490,7 +490,6 @@ sentiment.summary %>% select(c(Name, negative, positive, sentiment_score)) %>% m
 ```
 
 
-####The sentence related to that sentiment
 ```{r, fig.width=7, fig.height=5, fig.align='center', echo=FALSE, eval=FALSE}
 #the emotionally charged sentences
 speech.df = tbl_df(sentence.list)%>%
@@ -543,7 +542,7 @@ $$ $$
 $$ $$
 $$ $$
 
-### Through using the simplest words, Donald Trump makes every civilian feel more close to him. He tried his best to fight with Hillary Clinton, and his speech contains lots of anger and fear, not all about anticipation and joy. Maybe this whole bunch of speaking behaviors makes people feel him more like a common normal person rather than a glib politician.
+### Through using the simplest words, Donald Trump makes every civilian feel more close to him. He tried his best to fight with Hillary Clinton, and his speech contains lots of anger and fear, not all about anticipation and joy. Maybe this whole bunch of speaking behaviors make people feel him more like a common normal person rather than a glib politician.
 
 
 $$ $$
