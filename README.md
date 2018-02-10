@@ -14,21 +14,21 @@ Not to talk about the specific political dissidence between Trump and Hillary, l
 In this project, I use twenty speeches’ transcripts as my datasets, ten from Donald Trump and ten from Hillary Clinton. I will first focus on identifying the word usage differences between them. Basically, there are three sub-analysis in this part:
 
 * Frequency Analysis <br>
-<img src="figs/1.jpg" width="512" height="256" />
+<img src="figs/1.jpg" width="512" height="300" />
 * Keyness Analysis<br>
-<img src="figs/2.jpg" width="512" height="256" />
-* Readability Analysis
-![3](figs/3.jpg)
+<img src="figs/2.jpg" width="512" height="300" />
+* Readability Analysis<br>
+<img src="figs/3.jpg" width="256" height="128" />
 
 #### Part Two : Sentence Analysis - Sentiment Analysis
 After having analyzed the word similarities and differences between their speeches, I then start to perform sentence analysis. Here I will use sentences as units to perform sentiment analysis.
 
 For each extracted sentence, I apply two sentiment analysis methods:
 
-* NRC Sentiment Lexion.
-![4](figs/4.jpg)
-* syuzhet Sentiment Score.
-![5](figs/5.jpg)
+* NRC Sentiment Lexion<br>
+<img src="figs/4.jpg" width="256" height="128" />
+* syuzhet Sentiment Score<br>
+<img src="figs/5.jpg" width="256" height="128" />
 
 ### Conclusion
 Through using the simplest words, Donald Trump makes every civilian feel more close to him. He tried his best to fight with Hillary Clinton, and his speech contains lots of anger and fear, not all about anticipation and joy. Maybe this whole bunch of speaking behaviors make people feel him more like a common normal person rather than a glib politician.
