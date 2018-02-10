@@ -14,9 +14,9 @@ Not to talk about the specific political dissidence between Trump and Hillary, l
 In this project, I use twenty speeches’ transcripts as my datasets, ten from Donald Trump and ten from Hillary Clinton. I will first focus on identifying the word usage differences between them. Basically, there are three sub-analysis in this part:
 
 * Frequency Analysis <br>
-<img src="figs/1.jpg" width="256" height="128" />
+<img src="figs/1.jpg" width="512" height="256" />
 * Keyness Analysis<br>
-<img src="figs/2.jpg" width="256" height="128" />
+<img src="figs/2.jpg" width="512" height="256" />
 * Readability Analysis
 ![3](figs/3.jpg)
 
